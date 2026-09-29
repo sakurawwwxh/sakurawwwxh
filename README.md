@@ -1,5 +1,14 @@
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=1F6FEB&height=150&text=tomato&fontSize=52&fontColor=ffffff&fontAlignY=42&desc=%E8%87%AA%E6%89%98%E7%AE%A1%20LLM%20Agent%20%2F%20%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7&descSize=16&descAlignY=64" alt="tomato" />
+
+<!-- 终端窗口抬头：文件在你自己的仓库里，字体用系统等宽栈，不依赖任何外部服务。
+     SVG 通过 <img> 加载时内部的 prefers-color-scheme 不生效（实测），所以出明暗两份用 <picture> 切。
+     用绝对地址而不是相对路径：原生 HTML <img> 的相对路径在 README 里不保证被解析 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/header-light.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/header-light.svg" alt="tomato@sakurawwwxh" />
+</picture>
+
 </div>
 
 做的东西基本是给自己用的：单进程、SQLite、systemd、零外部依赖 —— 装上就能放着不管，才算做完。
@@ -32,19 +41,5 @@
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=nodejs,java,typescript,powershell,linux,sqlite,docker,git&theme=dark" alt="技术栈" />
-
-</div>
-
-## 贡献
-
-<div align="center">
-
-<!-- 提交统计按明暗主题切两份：github_dark 的卡片底色与 GitHub 暗色底相同，
-     会「融进」页面而不是浮出一块板子；浅色主题换回默认白底 -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=sakurawwwxh&theme=github_dark&hide_border=true&date_format=Y.n.j" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=sakurawwwxh&hide_border=true&date_format=Y.n.j" />
-  <img width="72%" src="https://streak-stats.demolab.com?user=sakurawwwxh&hide_border=true&date_format=Y.n.j" alt="提交统计" />
-</picture>
 
 </div>
