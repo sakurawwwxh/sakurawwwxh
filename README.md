@@ -25,17 +25,3 @@
 ## 技术栈
 
 ![Node.js](https://img.shields.io/badge/Node.js-30363D?style=flat-square&logo=nodedotjs&logoColor=5FA04E) ![JavaScript](https://img.shields.io/badge/JavaScript-30363D?style=flat-square&logo=javascript&logoColor=F7DF1E) ![TypeScript](https://img.shields.io/badge/TypeScript-30363D?style=flat-square&logo=typescript&logoColor=3178C6) ![Java](https://img.shields.io/badge/Java-30363D?style=flat-square&logo=openjdk&logoColor=ED8B00) ![PowerShell](https://img.shields.io/badge/PowerShell-30363D?style=flat-square&logo=powershell&logoColor=5391FE) ![SQLite](https://img.shields.io/badge/SQLite-30363D?style=flat-square&logo=sqlite&logoColor=7FC8F8) ![Linux](https://img.shields.io/badge/Linux-30363D?style=flat-square&logo=linux&logoColor=FCC624) ![Docker](https://img.shields.io/badge/Docker-30363D?style=flat-square&logo=docker&logoColor=2496ED)
-
----
-
-<div align="center">
-
-<!-- 贡献蛇按明暗主题切两份：暗色版的空格子色贴近 GitHub 暗色底，
-     浅色版换成浅色网格，避免在白底上压出一块深色矩形 -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake.svg" />
-  <img width="96%" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake.svg" alt="贡献蛇" />
-</picture>
-
-</div>
