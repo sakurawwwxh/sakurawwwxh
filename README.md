@@ -8,7 +8,7 @@
 
 </div>
 
-**[qq-agent-plus](https://github.com/sakurawwwxh/qq-agent-plus)** —— 跑在 Linux QQ（NapCat）上的群聊 Agent，走 OneBot v11 协议。分条发言、贴纸系统、主动发言、内置运维命令。
+<img src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/whale.svg" width="22" height="22" alt=""> **[qq-agent-plus](https://github.com/sakurawwwxh/qq-agent-plus)** —— 跑在 Linux QQ（NapCat）上的群聊 Agent，走 OneBot v11 协议。分条发言、贴纸系统、主动发言、内置运维命令。
 
 ![星](https://img.shields.io/github/stars/sakurawwwxh/qq-agent-plus?style=flat-square&color=1F6FEB&label=%E6%98%9F) ![最近提交](https://img.shields.io/github/last-commit/sakurawwwxh/qq-agent-plus?style=flat-square&color=1F6FEB&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4) ![最新版本](https://img.shields.io/github/v/release/sakurawwwxh/qq-agent-plus?style=flat-square&color=1F6FEB&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)
 
