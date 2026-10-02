@@ -1,6 +1,12 @@
+<div align="center">
+
+<img src="https://avatars.githubusercontent.com/u/153424445?v=4" width="104" height="104" alt="">
+
 ## 你好 👋
 
-> 做的东西基本是给自己用的：单进程、SQLite、systemd、零外部依赖 —— 装上就能放着不管，才算做完。
+做的东西基本是给自己用的：单进程、SQLite、systemd、零外部依赖 —— 装上就能放着不管，才算做完。
+
+</div>
 
 **[qq-agent-plus](https://github.com/sakurawwwxh/qq-agent-plus)** —— 跑在 Linux QQ（NapCat）上的群聊 Agent，走 OneBot v11 协议。分条发言、贴纸系统、主动发言、内置运维命令。
 
@@ -8,4 +14,4 @@
 
 **[opencode-go-panel](https://github.com/sakurawwwxh/opencode-go-panel)** —— 撬开 opencode.ai 控制台的 RPC，把用量做成 Windows 桌面悬浮窗。
 
-<sub>其余项目见 **[仓库列表](https://github.com/sakurawwwxh?tab=repositories)** ｜ 平时用 Node.js · Java · TypeScript · PowerShell · Linux · SQLite · Docker</sub>
+<sub>其余在 [仓库列表](https://github.com/sakurawwwxh?tab=repositories) ｜ Node.js · Java · TypeScript · PowerShell · Linux · SQLite · Docker</sub>
