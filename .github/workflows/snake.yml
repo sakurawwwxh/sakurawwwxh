@@ -27,22 +27,27 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
 
       # snk 会在格子下面再画一条横向的分段条形图（class="u"）。它在页面上读起来
-      # 像一根没填满的进度条，而且占着 192 的高度。这里把它删掉，并把 viewBox
-      # 和 height 一起收掉下面那段空白。
+      # 像一根没填满的进度条，还占着 192 的高度。这里删掉它，并把 viewBox 和
+      # height 一起收掉下面那段空白。
+      #
+      # 结果写到 out/ 而不是原地改：snk 在容器里跑，dist/ 属于 root，sed -i 和
+      # 重定向都写不进去（"couldn't open temporary file ... Permission denied"）。
       - name: Drop the contribution bar and the empty space under it
         run: |
-          set -e
+          mkdir -p out
           for f in dist/*.svg; do
-            sed -i -E 's|<rect class="u [^>]*/>||g' "$f"
-            sed -i 's|viewBox="-16 -32 880 192"|viewBox="-16 -32 880 164"|' "$f"
-            sed -i 's|width="880" height="192"|width="880" height="164"|' "$f"
-            echo "$f -> $(wc -c < "$f") bytes, u-rects left: $(grep -c 'class="u ' "$f" || true)"
+            sed -E \
+              -e 's|<rect class="u [^>]*/>||g' \
+              -e 's|viewBox="-16 -32 880 192"|viewBox="-16 -32 880 164"|' \
+              -e 's|width="880" height="192"|width="880" height="164"|' \
+              "$f" > "out/$(basename "$f")"
+            echo "$(basename "$f"): $(wc -c < "out/$(basename "$f")") bytes, bar rects left: $(grep -c 'class="u ' "out/$(basename "$f")" || true)"
           done
 
       - name: Push the generated files to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: out
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
