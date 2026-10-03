@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 40" width="237" height="40" role="img" aria-label="做的东西基本是给自己用的，装上能放着不管，才算做完">
+  <title>做的东西基本是给自己用的，装上能放着不管，才算做完</title>
+  <style>
+    text { font-family: "SF Mono","Cascadia Mono","JetBrains Mono",ui-monospace,Menlo,Consolas,"PingFang SC","Microsoft YaHei","Noto Sans SC",monospace; font-size: 19px; fill: #c9d1d9; }
+  </style>
+  <g>
+    <text x="2.00" y="27" opacity="0">做<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.00000;0.00017;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="21.38" y="27" opacity="0">的<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.01304;0.01322;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="40.76" y="27" opacity="0">东<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02609;0.02626;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="60.14" y="27" opacity="0">西<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.03913;0.03930;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="79.52" y="27" opacity="0">基<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.05217;0.05235;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="98.90" y="27" opacity="0">本<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.06522;0.06539;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="118.28" y="27" opacity="0">是<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.07826;0.07843;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="137.66" y="27" opacity="0">给<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.09130;0.09148;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="157.04" y="27" opacity="0">自<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.10435;0.10452;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="176.42" y="27" opacity="0">己<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.11739;0.11757;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="195.80" y="27" opacity="0">用<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.13043;0.13061;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="215.18" y="27" opacity="0">的<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.14348;0.14365;0.50435;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <rect x="2" y="13" width="9.50" height="19.00" fill="#3fb950">
+      <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.00348;0.15652;0.50435" dur="5.750000000000001s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="2.00;21.38;40.76;60.14;79.52;98.90;118.28;137.66;157.04;176.42;195.80;215.18;2" dur="5.750000000000001s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g>
+    <text x="2.00" y="27" opacity="0">装<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.50000;0.50017;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="21.38" y="27" opacity="0">上<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.51304;0.51322;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="40.76" y="27" opacity="0">能<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.52609;0.52626;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="60.14" y="27" opacity="0">放<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.53913;0.53930;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="79.52" y="27" opacity="0">着<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.55217;0.55235;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="98.90" y="27" opacity="0">不<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.56522;0.56539;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="118.28" y="27" opacity="0">管<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.57826;0.57843;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="137.66" y="27" opacity="0">，<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.59130;0.59148;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="157.04" y="27" opacity="0">才<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.60435;0.60452;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="176.42" y="27" opacity="0">算<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.61739;0.61757;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="195.80" y="27" opacity="0">做<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.63043;0.63061;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <text x="215.18" y="27" opacity="0">完<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.64348;0.64365;1.00000;1" dur="5.750000000000001s" repeatCount="indefinite"/></text>
+    <rect x="2" y="13" width="9.50" height="19.00" fill="#3fb950">
+      <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.50348;0.65652;1.00000" dur="5.750000000000001s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="2.00;21.38;40.76;60.14;79.52;98.90;118.28;137.66;157.04;176.42;195.80;215.18;2" dur="5.750000000000001s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
