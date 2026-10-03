@@ -5,9 +5,9 @@
 ## 你好 👋
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake.svg">
-  <img alt="贡献图贪吃蛇" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/greet-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/greet-light.svg">
+  <img alt="做的东西基本是给自己用的，装上能放着不管，才算做完" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/greet-dark.svg">
 </picture>
 
 </div>
@@ -23,3 +23,9 @@
 **[ai-agent-scaffold](https://github.com/sakurawwwxh/ai-agent-scaffold)** —— DDD 分层的 AI Agent 脚手架（Java 多模块）：Agent 服务接口、会话 DTO、自带 Dockerfile 与构建脚本。
 
 <sub>其余在 [仓库列表](https://github.com/sakurawwwxh?tab=repositories) ｜ Node.js · Java · TypeScript · PowerShell · Linux · SQLite · Docker</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake.svg">
+  <img alt="贡献图贪吃蛇" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake.svg" width="70%">
+</picture>
