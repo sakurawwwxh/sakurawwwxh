@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="ai-agent-scaffold">
-  <title>ai-agent-scaffold</title>
-  <circle cx="16" cy="16" r="16" fill="#B45309"/>
-<path d="M16 7V25" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" fill="none" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.84;1" dur="3.6s" begin="0.15" repeatCount="indefinite"/></path>
-<path d="M8 12H16" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" fill="none" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.84;1" dur="3.6s" begin="0.45" repeatCount="indefinite"/></path>
-<path d="M16 16H24" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" fill="none" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.84;1" dur="3.6s" begin="0.75" repeatCount="indefinite"/></path>
-<path d="M8 20H16" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" fill="none" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.84;1" dur="3.6s" begin="1.05" repeatCount="indefinite"/></path>
-</svg>
