@@ -4,7 +4,7 @@
 
 ## 你好 👋
 
-<img alt="做的东西基本是给自己用的，装上能放着不管，才算做完" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/greet.svg">
+<img alt="做的东西基本是给自己用的" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/hi.svg">
 
 </div>
 
