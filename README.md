@@ -4,11 +4,7 @@
 
 ## 你好 👋
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/type-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/type-light.svg">
-  <img alt="做的东西基本是给自己用的，装上能放着不管，才算做完" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/type-dark.svg">
-</picture>
+<img src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/snake.svg" width="248" height="84" alt="贪吃蛇">
 
 </div>
 
