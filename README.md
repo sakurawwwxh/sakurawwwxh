@@ -4,7 +4,11 @@
 
 ## 你好 👋
 
-<img src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/snake.svg" width="248" height="84" alt="贪吃蛇">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake.svg">
+  <img alt="贡献图贪吃蛇" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake.svg" width="100%">
+</picture>
 
 </div>
 
