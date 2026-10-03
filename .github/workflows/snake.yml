@@ -23,28 +23,39 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=%23a371f7&color_dots=%2321262d,%230e4429,%23006d32,%2326a641,%2339d353
 
-      # snk 会在格子下面再画一条横向的分段条形图（class="u"）。它在页面上读起来
-      # 像一根没填满的进度条，还占着 192 的高度。这里删掉它，并把 viewBox 和
-      # height 一起收掉下面那段空白。
+      # 原图是按「页面底色」配色的，所以它必须分发明暗两份，而 prefers-color-scheme
+      # 跟的是操作系统、不是 GitHub 主题，两边不一致时就会挑错。这里改成：自己带一块
+      # 底板，配色只针对这块底板定，于是一份文件在两个主题下完全一致。
       #
-      # 结果写到 out/ 而不是原地改：snk 在容器里跑，dist/ 属于 root，sed -i 和
-      # 重定向都写不进去（"couldn't open temporary file ... Permission denied"）。
-      - name: Drop the contribution bar and the empty space under it
+      # 顺带做两件事：
+      #  1. snk 在格子下面还画了一条横向的分段条形图（class="u"），在页面上读起来像
+      #     一根没填满的进度条 —— 删掉，并把 viewBox 和 height 一起收掉它占的高度。
+      #  2. 结果写到 out/ 而不是原地改：snk 在容器里跑，dist/ 属于 root，sed -i 和
+      #     重定向都会 Permission denied。
+      - name: Add a panel, drop the bar, trim the height
         run: |
           mkdir -p out
-          for f in dist/*.svg; do
-            sed -E \
-              -e 's|<rect class="u [^>]*/>||g' \
-              -e 's|viewBox="-16 -32 880 192"|viewBox="-16 -32 880 164"|' \
-              -e 's|width="880" height="192"|width="880" height="164"|' \
-              "$f" > "out/$(basename "$f")"
-            echo "$(basename "$f"): $(wc -c < "out/$(basename "$f")") bytes, bar rects left: $(grep -c 'class="u ' "out/$(basename "$f")" || true)"
-          done
+          node <<'NODE'
+          const fs = require('fs');
+          const panel = [
+            '<rect x="-16" y="-32" width="880" height="170" rx="12" fill="#0d1117"/>',
+            '<rect x="-15.5" y="-31.5" width="879" height="169" rx="11.5" fill="none" stroke="#30363d"/>',
+          ].join('');
+          for (const f of fs.readdirSync('dist')) {
+            if (!f.endsWith('.svg')) continue;
+            let t = fs.readFileSync('dist/' + f, 'utf8');
+            t = t.replace(/<rect class="u [^>]*\/>/g, '');
+            t = t.replace('viewBox="-16 -32 880 192"', 'viewBox="-16 -32 880 170"');
+            t = t.replace('width="880" height="192"', 'width="880" height="170"');
+            t = t.replace(/(<svg[^>]*>)/, '$1' + panel);
+            fs.writeFileSync('out/' + f, t);
+            console.log(f, t.length + 'B', 'bar rects left:', (t.match(/class="u /g) || []).length, 'panel:', t.includes('#0d1117'));
+          }
+          NODE
 
-      - name: Push the generated files to the output branch
+      - name: Push the generated file to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
