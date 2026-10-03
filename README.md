@@ -4,11 +4,7 @@
 
 ## 你好 👋
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/greet-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/greet-light.svg">
-  <img alt="做的东西基本是给自己用的，装上能放着不管，才算做完" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/greet-dark.svg">
-</picture>
+<img alt="做的东西基本是给自己用的，装上能放着不管，才算做完" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/main/greet.svg">
 
 </div>
 
