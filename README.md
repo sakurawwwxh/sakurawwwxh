@@ -18,8 +18,12 @@
 
 **[ai-agent-scaffold](https://github.com/sakurawwwxh/ai-agent-scaffold)** —— DDD 分层的 AI Agent 脚手架（Java 多模块）：Agent 服务接口、会话 DTO、自带 Dockerfile 与构建脚本。
 
+<div align="center">
+
 <picture>
   <img alt="贡献图贪吃蛇" src="https://raw.githubusercontent.com/sakurawwwxh/sakurawwwxh/output/github-snake.svg" width="70%">
 </picture>
+
+</div>
 
 <sub>其余在 [仓库列表](https://github.com/sakurawwwxh?tab=repositories) ｜ Node.js · Java · TypeScript · PowerShell · Linux · SQLite · Docker</sub>
