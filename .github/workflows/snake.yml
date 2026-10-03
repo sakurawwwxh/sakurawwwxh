@@ -26,6 +26,19 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
+      # snk 会在格子下面再画一条横向的分段条形图（class="u"）。它在页面上读起来
+      # 像一根没填满的进度条，而且占着 192 的高度。这里把它删掉，并把 viewBox
+      # 和 height 一起收掉下面那段空白。
+      - name: Drop the contribution bar and the empty space under it
+        run: |
+          set -e
+          for f in dist/*.svg; do
+            sed -i -E 's|<rect class="u [^>]*/>||g' "$f"
+            sed -i 's|viewBox="-16 -32 880 192"|viewBox="-16 -32 880 164"|' "$f"
+            sed -i 's|width="880" height="192"|width="880" height="164"|' "$f"
+            echo "$f -> $(wc -c < "$f") bytes, u-rects left: $(grep -c 'class="u ' "$f" || true)"
+          done
+
       - name: Push the generated files to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
